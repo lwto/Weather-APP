@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- --- ICONS ---- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- --- CSS ---- -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Weather App</title>
+</head>
+
+<body>
+    <img src="img/background.jpg" alt="" class="background">
+    <main class="container">
+        <div class="current-info">
+            <div class="current-weather">
+                <div class="time-container">
+                    <div class="time" id="time">
+                        <span id="am-pm"></span>
+                    </div>
+                </div>
+
+                <div class="time-zone" id="time-zone"></div>
+                <div class="temp" id="current-temp"> </div>
+
+
+            </div>
+
+            <div class="others" id="current-weather-items">
+                <div class="weather-item">
+                    <div class="weather-icon"><img src="img/humidity.png" alt=""></i></div>
+                    <div class="weather-info">
+                        <p>Humidity</p>
+                        <div class="weather-data" id="humidity"></div>
+                    </div>
+                </div>
+                <div class="weather-item">
+                    <div class="weather-icon"><img src="img/pressure.png" alt=""></i></div>
+                    <div class="weather-info">
+                        <p>Air Pressure</p>
+                        <div class="weather-data" id="pressure"></div>
+                    </div>
+                </div>
+                <div class="weather-item">
+                    <div class="weather-icon"><img src="img/rain.png" alt=""></i></div>
+                    <div class="weather-info">
+                        <p>Chance of Rain</p>
+                        <div class="weather-data" id="rain"></div>
+                    </div>
+                </div>
+                <div class="weather-item">
+                    <div class="weather-icon"><img src="img/wind.png" alt=""></i></div>
+                    <div class="weather-info">
+                        <p>Wind Speed</p>
+                        <div class="weather-data" id="wind"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="future-forecast container">
+            <div class="today" id="current-temp-forecast">
+
+            </div>
+
+            <div class="weather-forecast" id="weather-forecast">
+
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
