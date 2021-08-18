@@ -71,10 +71,10 @@ function showWeatherData(data) {
 
 
             currentTempforecastE.innerHTML =
-                ` <img src="http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png" alt="weather-icon">
-                <div class="other">
+                // <img src="http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png" alt="weather-icon">
+                // <div class="other">
 
-                    <div class="day">${dateobject.toLocaleString("en-US", { weekday: "long" })}</div>
+                `<div class="day">${dateobject.toLocaleString("en-US", { weekday: "long" })}</div>
                     <div class="temp">
                     <div>Max: ${day.temp.max} &#176;C</div>
                     <div>Min: ${day.temp.min} &#176;C</div>
