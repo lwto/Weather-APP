@@ -108,6 +108,7 @@ main .others .weather-item .weather-data {
 
 .future-forecast .today .temp {
   font-weight: 500;
+  padding-top:10px;
 
 }
 .temp div{
@@ -221,10 +222,10 @@ main .others .weather-item .weather-data {
     font-weight: 500;
   }
   .future-forecast .today .other {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
   .future-forecast .today .other .day {
-    font-size: 1.75rem;
+    font-size: 1.8rem;
   }
   .future-forecast .weather-forecast .weather-forecast-item {
     font-size: 1.25rem;
@@ -239,10 +240,10 @@ main .others .weather-item .weather-data {
     font-size: 3.5rem;
   }
   main .current-info .time-zone {
-    font-size: 2.25rem;
+    font-size: 2.15rem;
   }
   main .current-info .temp {
-    font-size: 2.875rem;
+    font-size: 2.75rem;
   }
   main .current-info .others .weather-item {
     font-size: 1.25rem;
@@ -258,9 +259,6 @@ main .others .weather-item .weather-data {
     font-weight: 500;
   }
   
-  main .future-forecast .weather-forecast .weather-forecast-item {
-    font-size: 1.5rem;
-  }
   main .future-forecast .weather-forecast .weather-forecast-item .day {
     padding-right: 40px;
   }
