@@ -91,16 +91,16 @@ main .others .weather-item .weather-data {
 
 .future-forecast .today {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
-.future-forecast .today img {
-  padding: 20px 0px;
-}
+
 
 .future-forecast .today .day {
+ 
   padding-bottom: 20px;
   font-size: 1.25rem;
   padding-right: 40px;
@@ -108,10 +108,12 @@ main .others .weather-item .weather-data {
 
 .future-forecast .today .temp {
   font-weight: 500;
-  padding-bottom: 30px;
+
 }
 .temp div{
-  padding-bottom:10px;
+  width: 130px;
+  padding-bottom: 10px;
+
 }
 
 .future-forecast .today .other {

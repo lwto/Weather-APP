@@ -74,7 +74,10 @@ function showWeatherData(data) {
                 // <img src="http://openweathermap.org/img/wn/${day.weather[0].icon}@2x.png" alt="weather-icon">
                 // <div class="other">
 
-                `<div class="day">${dateobject.toLocaleString("en-US", { weekday: "long" })}</div>
+                `<div>
+                <div class="day">Today</div>
+                    <div class="description">${day.weather[0].description}</div>
+                </div>
                     <div class="temp">
                     <div>Max: ${day.temp.max} &#176;C</div>
                     <div>Min: ${day.temp.min} &#176;C</div>
